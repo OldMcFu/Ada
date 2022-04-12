@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/romer/workspace/Ada/02_Echo_Socket/tasking.gpr
+20220329124522
+[BOUND OBJECT FILES]
+/home/romer/workspace/Ada/02_Echo_Socket/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/romer/workspace/Ada/02_Echo_Socket/obj/
+-L/home/romer/workspace/Ada/02_Echo_Socket/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/10/adalib/
+-shared
+-lgnat-10
+-ldl
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/10/adalib/
+/usr/lib
