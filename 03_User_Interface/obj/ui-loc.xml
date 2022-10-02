@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>F:\Workspace\Ada\ui\ui.gpr</vfs_project>
+      <vfs_file>F:\Workspace\Ada\ui\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>F:\Workspace\Ada\ui\ui.gpr</vfs_project>
+      <vfs_file>F:\Workspace\Ada\ui\src\ui_handler.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>F:\Workspace\Ada\ui\ui.gpr</vfs_project>
+      <vfs_file>F:\Workspace\Ada\ui\src\ui_handler.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>F:\Workspace\Ada\ui\ui.gpr</vfs_project>
+      <vfs_file>F:\Workspace\Ada\ui\src\udp_sockets.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 6" >
+      <vfs_project>F:\Workspace\Ada\ui\ui.gpr</vfs_project>
+      <vfs_file>F:\Workspace\Ada\ui\src\udp_sockets.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>F:\Workspace\Ada\ui\ui.gpr</vfs_project>
+      <vfs_file>F:\Workspace\Ada\ui\src\cli.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 6" >
+      <vfs_project>F:\Workspace\Ada\ui\ui.gpr</vfs_project>
+      <vfs_file>F:\Workspace\Ada\ui\src\cli.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>F:\Workspace\Ada\ui\ui.gpr</vfs_project>
+      <vfs_file>F:\Workspace\Ada\ui\src\cli.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 2" >
+      <vfs_project>F:\Workspace\Ada\ui\ui.gpr</vfs_project>
+      <vfs_file>F:\Workspace\Ada\ui\src\cli.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 36" >
+      <vfs_project>F:\Workspace\Ada\ui\ui.gpr</vfs_project>
+      <vfs_file>F:\Programme\GNAT\2020\lib\gcc\x86_64-pc-mingw32\9.3.1\adainclude\a-comlin.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>F:\Workspace\Ada\ui\ui.gpr</vfs_project>
+      <vfs_file>F:\Workspace\Ada\ui\src\udp_sockets.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 7" >
+      <vfs_project>F:\Workspace\Ada\ui\ui.gpr</vfs_project>
+      <vfs_file>F:\Workspace\Ada\ui\src\udp_sockets.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 9" >
+      <vfs_project>F:\Workspace\Ada\ui\ui.gpr</vfs_project>
+      <vfs_file>F:\Workspace\Ada\ui\src\udp_sockets.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 3" >
+      <vfs_project>F:\Workspace\Ada\ui\ui.gpr</vfs_project>
+      <vfs_file>F:\Workspace\Ada\ui\src\udp_sockets.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>F:\Workspace\Ada\ui\ui.gpr</vfs_project>
+      <vfs_file>F:\Workspace\Ada\ui\src\udp_sockets.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>F:\Workspace\Ada\ui\ui.gpr</vfs_project>
+      <vfs_file>F:\Workspace\Ada\ui\src\udp_sockets.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 44" line=" 14" >
+      <vfs_project>F:\Workspace\Ada\ui\ui.gpr</vfs_project>
+      <vfs_file>F:\Workspace\Ada\ui\src\udp_sockets.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 3" >
+      <vfs_project>F:\Workspace\Ada\ui\ui.gpr</vfs_project>
+      <vfs_file>F:\Workspace\Ada\ui\src\po_states.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
