@@ -1,6 +1,6 @@
 package po_states is
 
-   protected type Bounded_Buffer is
+   protected type Protected_States is
       function Get_Start return Boolean;
       procedure Put_Start (State : in Boolean);
       function Get_Error return Boolean;
@@ -11,6 +11,8 @@ package po_states is
       Start     : Boolean := False;
       Error     : Boolean := False;
       Ready     : Boolean := False;
-   end Bounded_Buffer;
+   end Protected_States;
+
+   type Protected_States_Pointer is access Protected_States;
 
 end po_states;

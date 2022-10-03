@@ -1,0 +1,10 @@
+name = "user_interface"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Matthias Romer"]
+maintainers = ["Matthias Romer <Darkst0rm@web.de>"]
+maintainers-logins = ["oldmcfu"]
+
+project-files = ["ui.gpr"]
+executables = ["user_interface"]
