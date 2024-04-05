@@ -223,3 +223,14 @@ cython_debug/
 
 *.xml
 *.toml
+04_Thin_Binding/examples/obj/b__ipc_posix_msg_queue_example.adb
+04_Thin_Binding/examples/obj/b__ipc_posix_msg_queue_example.ads
+04_Thin_Binding/examples/obj/b__ipc_posix_msg_queue.adb
+04_Thin_Binding/examples/obj/b__ipc_posix_msg_queue.ads
+04_Thin_Binding/examples/obj/ipc_posix_msg_queue_example.adb.stderr
+04_Thin_Binding/examples/obj/ipc_posix_msg_queue_example.adb.stdout
+04_Thin_Binding/examples/obj/ipc_posix_msg_queue_example.bexch
+04_Thin_Binding/examples/obj/ipc_posix_msg_queue.adb.stderr
+04_Thin_Binding/examples/obj/ipc_posix_msg_queue.adb.stdout
+04_Thin_Binding/examples/obj/ipc_posix_msg_queue.bexch
+04_Thin_Binding/examples/obj/libexample.deps
