@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/workspaces/redhat/Ada/04_Thin_Binding/udp_timestamp/udp_timestamp.gpr
+20240314200813 be8e884f044a3ac24703aea557a462c3
+[BOUND OBJECT FILES]
+/workspaces/redhat/Ada/04_Thin_Binding/udp_timestamp/obj/extended_socket.o
+/workspaces/redhat/Ada/04_Thin_Binding/udp_timestamp/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/workspaces/redhat/Ada/04_Thin_Binding/udp_timestamp/obj/
+-L/workspaces/redhat/Ada/04_Thin_Binding/udp_timestamp/obj/
+-L/opt/gnat/lib/gcc/x86_64-pc-linux-gnu/13.2.0/adalib/
+-static
+-static-libgcc
+/opt/gnat/lib/gcc/x86_64-pc-linux-gnu/13.2.0/adalib/libgnat.a
+-ldl

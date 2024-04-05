@@ -1,0 +1,12 @@
+ipc_posix_msg_queue.adb:11:106: error: "Ipc_Posix_Msg_Queue" is not a visible entity of "Ipc_Posix_Msg_Queue"
+ipc_posix_msg_queue.adb:12:107: error: "Ipc_Posix_Msg_Queue" is not a visible entity of "Ipc_Posix_Msg_Queue"
+ipc_posix_msg_queue.adb:17:20: error: no selector "Open" for type "Ipc_Posix_Msg_Queue_Type'Class" defined at linux-ipc_posix_msg_queue.ads:10
+ipc_posix_msg_queue.adb:17:71: error: invalid prefix in selected component "Linux.Ipc_Posix_Msg_Queue.Mode_Type"
+ipc_posix_msg_queue.adb:18:19: error: no selector "Open" for type "Ipc_Posix_Msg_Queue_Type'Class" defined at linux-ipc_posix_msg_queue.ads:10
+ipc_posix_msg_queue.adb:18:70: error: invalid prefix in selected component "Linux.Ipc_Posix_Msg_Queue.Mode_Type"
+linux-ipc_posix_msg_queue.ads:10:08: error: missing full declaration for private type "Ipc_Posix_Msg_Queue_Type"
+linux-ipc_posix_msg_queue.ads:15:25: error: subtype mark required in this context
+linux-ipc_posix_msg_queue.ads:15:25: error: found "Ipc_Posix_Msg_Queue" declared at line 8
+linux-ipc_posix_msg_queue.ads:22:26: error: subtype mark required in this context
+linux-ipc_posix_msg_queue.ads:22:26: error: found "Ipc_Posix_Msg_Queue" declared at line 8
+linux-ipc_posix_msg_queue.ads:49:03: error: type "Ipc_Posix_Msg_Queue_Type" must be fully defined before this point

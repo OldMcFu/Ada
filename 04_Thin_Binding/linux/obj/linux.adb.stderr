@@ -1,0 +1,4 @@
+linux.adb:3:01: error: spec of this package does not allow a body
+linux.adb:3:01: error: either remove the body or add pragma Elaborate_Body in the spec
+linux.adb:6:56: error: "Int_8_Ptr" is undefined
+linux.adb:9:21: error: "Int_8_Ptr" not declared in "Linux"

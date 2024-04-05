@@ -1,0 +1,27 @@
+[GENERATED OBJECT FILE]
+b__ipc_posix_msg_queue.o
+[PROJECT FILES]
+/workspaces/redhat/Ada/04_Thin_Binding/examples/example.gpr
+20240404140411 0da1fbcfdf6dccbede7bdc85b96a8ef2
+/workspaces/redhat/Ada/04_Thin_Binding/linux/linux.gpr
+20240404140110 22104efddb7d3a630d4d1e7b31b5b54a
+/workspaces/redhat/Ada/04_Thin_Binding/ipc_posix_msg_queue/ipc_posix_msgq.gpr
+20240404140618 ee09862a1eaab5f2979763842a83713d
+[BOUND OBJECT FILES]
+/workspaces/redhat/Ada/04_Thin_Binding/linux/obj/linux.o
+/workspaces/redhat/Ada/04_Thin_Binding/ipc_posix_msg_queue/obj/linux-ipc_posix_msg_queue.o
+/workspaces/redhat/Ada/04_Thin_Binding/examples/obj/ipc_posix_msg_queue.o
+[GENERATED SOURCE FILES]
+b__ipc_posix_msg_queue.ads
+b__ipc_posix_msg_queue.adb
+b__ipc_posix_msg_queue.ali
+[RESULTING OPTIONS]
+-L/workspaces/redhat/Ada/04_Thin_Binding/examples/obj/
+-L/workspaces/redhat/Ada/04_Thin_Binding/examples/obj/
+-L/workspaces/redhat/Ada/04_Thin_Binding/ipc_posix_msg_queue/obj/
+-L/workspaces/redhat/Ada/04_Thin_Binding/linux/obj/
+-L/opt/gnat/lib/gcc/x86_64-pc-linux-gnu/13.2.0/adalib/
+-static
+-static-libgcc
+/opt/gnat/lib/gcc/x86_64-pc-linux-gnu/13.2.0/adalib/libgnat.a
+-ldl

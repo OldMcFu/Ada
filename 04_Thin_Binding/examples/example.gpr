@@ -1,0 +1,12 @@
+with "../ipc_posix_msg_queue/ipc_posix_msgq.gpr";
+
+project Example is
+
+   for Languages use ("Ada");
+
+   for Source_Dirs use ("./");
+   for Main use ("ipc_posix_msg_queue_example.adb");
+   for Object_Dir use "obj";
+   for Exec_Dir use "exec";
+
+end Example;
