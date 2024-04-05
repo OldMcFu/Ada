@@ -1,4 +1,3 @@
-
 package body Linux.Ipc_Posix_Msg_Queue is
 
   function Open (This : in out Ipc_Posix_Msg_Queue_Type; Name : in String; Mode : in Linux.Ipc_Posix_Msg_Queue.Mode_Type) return Interfaces.C.int is
@@ -21,26 +20,25 @@ package body Linux.Ipc_Posix_Msg_Queue is
 
   end Open;
 
-  function Write (This : in Ipc_Posix_Msg_Queue_Type; Value : in Character) return Interfaces.C.int is
+  function Write (This : in Ipc_Posix_Msg_Queue_Type; Value : in Message_Type) return Interfaces.C.int is
     Ret : Interfaces.C.int := -1;
   begin
 
     if (This.Mode = Linux.Ipc_Posix_Msg_Queue.Read_Only) then
       Ret := -1;
     else
-      Ret := Writer_Mq(This.Fd, Interfaces.C.To_C(Value));
+      Ret := Writer_Mq(This.Fd, Value);
     end if;
 
     return Ret;
 
   end Write;
 
-  function Read (This : in  Ipc_Posix_Msg_Queue_Type; Value : out Character) return Interfaces.C.int is
+  function Read (This : in  Ipc_Posix_Msg_Queue_Type; Value : out Message_Type) return Interfaces.C.int is
     Ret : Interfaces.C.int := -1;
-    Val : Interfaces.C.char;
+
   begin
-    Ret := Reader_Mq(This.Fd, Val);
-    Value := Interfaces.C.To_Ada(Val);
+    Ret := Reader_Mq(This.Fd, Value);
 
     return Ret;
 

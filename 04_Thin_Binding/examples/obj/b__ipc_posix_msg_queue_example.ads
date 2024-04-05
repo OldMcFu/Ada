@@ -40,7 +40,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#16c6e120#;
+   u00001 : constant Version_32 := 16#46be31e6#;
    pragma Export (C, u00001, "ipc_posix_msg_queue_exampleB");
    u00002 : constant Version_32 := 16#7320ff5f#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -310,9 +310,9 @@ package ada_main is
    pragma Export (C, u00134, "interfaces__c__stringsB");
    u00135 : constant Version_32 := 16#a856e1a3#;
    pragma Export (C, u00135, "interfaces__c__stringsS");
-   u00136 : constant Version_32 := 16#424a2d3f#;
+   u00136 : constant Version_32 := 16#33ccdfba#;
    pragma Export (C, u00136, "linux__ipc_posix_msg_queueB");
-   u00137 : constant Version_32 := 16#2e88a6ab#;
+   u00137 : constant Version_32 := 16#773a5822#;
    pragma Export (C, u00137, "linux__ipc_posix_msg_queueS");
    u00138 : constant Version_32 := 16#514dd7cc#;
    pragma Export (C, u00138, "ada__strings__boundedB");
@@ -350,10 +350,10 @@ package ada_main is
    pragma Export (C, u00154, "system__memoryB");
    u00155 : constant Version_32 := 16#19e99d68#;
    pragma Export (C, u00155, "system__memoryS");
-   u00156 : constant Version_32 := 16#7c5a5793#;
-   pragma Export (C, u00156, "system__img_charB");
-   u00157 : constant Version_32 := 16#de59f75f#;
-   pragma Export (C, u00157, "system__img_charS");
+   u00156 : constant Version_32 := 16#602bc0ef#;
+   pragma Export (C, u00156, "system__img_lliS");
+   u00157 : constant Version_32 := 16#ad0ace1a#;
+   pragma Export (C, u00157, "system__wid_lluS");
    u00158 : constant Version_32 := 16#b49a0e5d#;
    pragma Export (C, u00158, "system__storage_pools__subpoolsB");
    u00159 : constant Version_32 := 16#a2d8d50c#;
@@ -372,8 +372,6 @@ package ada_main is
    --  system.address_operations%s
    --  system.address_operations%b
    --  system.atomic_operations%s
-   --  system.img_char%s
-   --  system.img_char%b
    --  system.io%s
    --  system.io%b
    --  system.parameters%s
@@ -521,6 +519,8 @@ package ada_main is
    --  ada.text_io%b
    --  system.pool_global%s
    --  system.pool_global%b
+   --  system.wid_llu%s
+   --  system.img_lli%s
    --  linux%s
    --  linux.ipc_posix_msg_queue%s
    --  linux.ipc_posix_msg_queue%b

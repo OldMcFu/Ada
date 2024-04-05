@@ -39,6 +39,7 @@ package body ada_main is
    E159 : Short_Integer; pragma Import (Ada, E159, "system__storage_pools__subpools_E");
    E118 : Short_Integer; pragma Import (Ada, E118, "ada__text_io_E");
    E153 : Short_Integer; pragma Import (Ada, E153, "system__pool_global_E");
+   E156 : Short_Integer; pragma Import (Ada, E156, "system__img_lli_E");
    E137 : Short_Integer; pragma Import (Ada, E137, "linux__ipc_posix_msg_queue_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
@@ -260,6 +261,8 @@ package body ada_main is
       E118 := E118 + 1;
       System.Pool_Global'Elab_Spec;
       E153 := E153 + 1;
+      System.Img_Lli'Elab_Spec;
+      E156 := E156 + 1;
       Linux.Ipc_Posix_Msg_Queue'Elab_Spec;
       E137 := E137 + 1;
    end adainit;

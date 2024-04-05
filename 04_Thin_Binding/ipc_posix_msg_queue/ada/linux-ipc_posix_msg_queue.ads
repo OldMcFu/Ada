@@ -13,17 +13,17 @@ package Linux.Ipc_Posix_Msg_Queue is
   type Mode_Type is (Read_Only, Read_Write);
 
   type Message_Type is record
-    State : Interfaces.C.char;
-    Timestamp : Interfaces.C.long_long;
+    State : Interfaces.C.int;
+    Timestamp : Interfaces.C.long;
   end record
     with Convention => C;
 
   function Open (This : in out Ipc_Posix_Msg_Queue_Type; Name : String; Mode : Mode_Type) return Interfaces.C.int;
 
   function Write
-   (This : in Ipc_Posix_Msg_Queue_Type; Value : in Character) return Interfaces.C.int;
+   (This : in Ipc_Posix_Msg_Queue_Type; Value : in Message_Type) return Interfaces.C.int;
 
-  function Read (This : in Ipc_Posix_Msg_Queue_Type; Value : out Character) return Interfaces.C.int;
+  function Read (This : in Ipc_Posix_Msg_Queue_Type; Value : out Message_Type) return Interfaces.C.int;
 
   procedure Close (This : in Ipc_Posix_Msg_Queue_Type);
 
@@ -46,10 +46,10 @@ private
   procedure Close_Reader_Mq (mqd : Linux.File_Descriptor) with
    Import => True, Convention => C, External_Name => "close_reader_mq";
 
-  function Writer_Mq (mqd : Linux.File_Descriptor; val : in Interfaces.C.char) return Interfaces.C.int with
+  function Writer_Mq (mqd : Linux.File_Descriptor; val : in Message_Type) return Interfaces.C.int with
    Import => True, Convention => C, External_Name => "writer_mq";
 
-  function Reader_Mq (mqd : Linux.File_Descriptor; val : out Interfaces.C.char) return Interfaces.C.int with
+  function Reader_Mq (mqd : Linux.File_Descriptor; val : out Message_Type) return Interfaces.C.int with
    Import => True, Convention => C, External_Name => "reader_mq";
 
   type Ipc_Posix_Msg_Queue_Type is tagged limited record
