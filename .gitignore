@@ -1,6 +1,9 @@
 # Object file
 *.o
-
+*.stdout
+*.stderr
+*.bexch
+*.deps
 # Ada Library Information
 *.ali
 
